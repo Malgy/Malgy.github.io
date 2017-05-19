@@ -1,6 +1,6 @@
 //Using jQuery with my website
 $(document).ready(function(){
-	$a = $('img');
+	$a = $('img.icon');
 	$a.mouseover(function(){
 		$a.fadeTo('fast', 0.5);
 	});
