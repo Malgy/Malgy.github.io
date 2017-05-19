@@ -3,6 +3,24 @@ mySiteTheme.css
 Anthony Malgapo
 */
 
+/*body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  background-color: #EEE;
+}*/
+
+html,
+body {
+  background: url("http://cdn.pcwallart.com/images/cool-gradient-background-wallpaper-2.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .centering {
     position: absolute;
     top: 50%;
