@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<!--
+Things still left to do:
+  1. Add comments on all pages (html, css, js)
+  2. Add clicks that fade completed tasks
+  3. More UI cleanliness
+
+-->
 <html>
     <head>
     	<title>To Do</title>
@@ -8,12 +15,22 @@
         <link rel="stylesheet" type="text/css" href="todo_style.css"/>
 	</head>
 	<body>
-		<h2>To Do</h2>
-		<form name="checkListForm">
-			<input type="text" name="checkListItem"/>
-		</form>
-		<div id="button">Add!</div>
-		<br/>
-		<div class="list"></div>
+  	<center><h2>To Do List</h2></center>
+    <div class="almost_bottom">
+  		<form name="checkListForm">
+  			Objective:<br>
+        <input type="text" name="checkListItem" placeholder="What should we do?"/>
+        <br>
+        Time:<br>
+        <input type="text" name="checkListTime" placeholder="--:-- am/pm"/>
+  		</form>
+      <br>
+  		<center><div id="button">Add!</div></center>
+    </div>
+    <center>
+      <div id="printbutton">Print your To Do List!</div>
+      <br>
+      <div class="list"></div>
+    </center>
 	</body>
 </html>
