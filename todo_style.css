@@ -12,14 +12,12 @@ form {
 }
 
 body {
-  background: url("https://heavyeditorial.files.wordpress.com/2013/03/cool-simple-and-minimalist-desktop-wallpaper-rmpil.png")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-color: #3E3E3E;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-/* Background provided by: http://heavy.com/social/2013/03/20-minimalistic-wallpapers-that-should-be-on-your-desktop/ */
-
 
 #button {
   display: inline-block;
@@ -100,17 +98,8 @@ ol .ui-selected {
   font-family: arial;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { /* do not show footer on mobile devices, looks gross */
   #footer {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    background-color: #efefef;
-    padding: 0.3rem;
-    margin-bottom: 0
-    text-align: center;
-    overflow: hidden;
-    width: 100%;
+    display: none;
   }
 }
