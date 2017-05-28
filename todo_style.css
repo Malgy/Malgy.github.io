@@ -99,3 +99,18 @@ ol .ui-selected {
   text-align: center;
   font-family: arial;
 }
+
+@media (min-width: 992px) {
+  #footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    background-color: #efefef;
+    padding: 0.3rem;
+    margin-bottom: 0
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+  }
+}
