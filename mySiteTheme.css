@@ -14,11 +14,11 @@ Anthony Malgapo
 
 html,
 body {
-  background: url("http://cdn.pcwallart.com/images/cool-gradient-background-wallpaper-2.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background-color: #3E3E3E;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .centering {
