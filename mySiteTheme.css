@@ -14,12 +14,16 @@ Anthony Malgapo
 
 html,
 body {
-  background-color: #3E3E3E;
+  background-color: #131313;
+  color: #cccccc;
+  /*background: url("http://wallpapercave.com/wp/X6PjOyY.png")no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* Background credit: http://wallpapercave.com/black-gradient-wallpaper */
 
 .centering {
     position: absolute;
