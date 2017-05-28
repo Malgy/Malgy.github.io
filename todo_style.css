@@ -101,7 +101,7 @@ ol .ui-selected {
 }
 
 @media (min-width: 992px) { /* do not show footer on mobile devices, looks gross */
-  #footer {
+  /*#footer {
     display: none;
-  }
+  }*/
 }
