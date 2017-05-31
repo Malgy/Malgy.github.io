@@ -75,10 +75,10 @@ ol li {
 	font-family: Verdana, Arial, Sans-Serif;
 }
 
-ol .ui-selected {
+/*ol .ui-selected {
 	background: #F39814;
   color: white;
-}
+}*/
 
 .almost_bottom{
   position: absolute;
@@ -100,8 +100,8 @@ ol .ui-selected {
   font-family: arial;
 }
 
-@media (min-width: 992px) { /* do not show footer on mobile devices, looks gross */
-  /*#footer {
+@media (max-width: 400px) { /* do not show footer on mobile devices, looks gross */
+  #footer {
     display: none;
-  }*/
+  }
 }
