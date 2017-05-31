@@ -100,7 +100,7 @@ ol li {
   font-family: arial;
 }
 
-@media (max-width: 400px) { /* do not show footer on mobile devices, looks gross */
+@media (max-width: 996px) { /* do not show footer on mobile devices, looks gross */
   #footer {
     display: none;
   }
