@@ -17,6 +17,8 @@ body {
   background-color: #131313;
   color: #cccccc;
   /*background: url("http://wallpapercave.com/wp/X6PjOyY.png")no-repeat center center fixed;*/
+  /*background: url("https://i.ytimg.com/vi/TEquk8KmZMs/maxresdefault.jpg")no-repeat center center fixed;*/
+  background: url("1.jpg")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,7 +31,24 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    font-family: Courier;
+    font-size: 11px;
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+}
+
+
+#name {
+  font-family: Streamster;
+  font-size: 36px;
+  background: -webkit-linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@font-face {
+  font-family: Streamster;
+  /*src: url(fonts/Streamster.woff);*/
+  src: url(fonts/gunshiphalfital.ttf);
 }
