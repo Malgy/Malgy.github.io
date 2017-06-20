@@ -12,14 +12,16 @@ form {
 }
 
 body {
-  background: url("https://wallpaperlayer.com/img/2015/8/hipster-minimal-wallpaper-4201-4429-hd-wallpapers.jpg")no-repeat center center fixed;
+  background: url("http://cdn.wallpapersafari.com/53/4/y5Qug6.jpg")no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-/* background credit: https://wallpaperlayer.com/hipster-minimal-wallpaper-4201.html */
+/* 1 background credit: https://wallpaperlayer.com/hipster-minimal-wallpaper-4201.html */
+/* 2 background credit: http://cdn.wallpapersafari.com/53/4/y5Qug6.jpg */
+
 
 #button {
   display: inline-block;
