@@ -2,7 +2,7 @@
 
 This is my personal website where you can mainly find information about me as a programmer.
 
-[AnthonyMalgapo](https://malgy.github.io) - Please visit my website here.
+[AnthonyMalgapo](http://anthonymalgapo.com) - Please visit my website here.
 
 ## View Explanation
 
